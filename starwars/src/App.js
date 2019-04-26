@@ -40,8 +40,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        
-        <h1 className="Header">REACT WARS</h1>
+
+        <img className = "react-wars-logo" src={ require('./components/reactwarslogo.png') } />
 
         <div className = "character-list">
           {this.state.starwarsChars.map(character => (
