@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Character from '../src/Character'
 
 class App extends Component {
   constructor() {
@@ -8,8 +9,9 @@ class App extends Component {
       starwarsChars: [],
       character: {
         name: '',
-        gender: '',
         homeworld: '',
+        birth_year: '',
+        gender: ''
       }
     };
   }
