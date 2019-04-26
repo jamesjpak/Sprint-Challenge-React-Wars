@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+
 import Character from '../src/Character'
 
 class App extends Component {
@@ -39,9 +40,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="Header">React Wars</h1>
+        
+        <h1 className="Header">REACT WARS</h1>
 
-        <div class = "character-list">
+        <div className = "character-list">
           {this.state.starwarsChars.map(character => (
             <Character character={character} key={character.banana} />
           ))}

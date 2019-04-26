@@ -7,9 +7,6 @@ function Character(props) {
       <div className="character-info">
         <h1>{props.character.name}</h1>
         <p>
-          <strong>Homeworld:</strong> {props.character.homeworld}
-        </p>
-        <p>
           <strong>Born in:</strong> {props.character.birth_year}
         </p>
         <p>
