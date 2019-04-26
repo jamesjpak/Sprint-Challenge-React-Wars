@@ -26,11 +26,20 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a Javascript library developed by Facebook, and it is used by many popular social media related sites today for good reasons.  React utilizes a user interface that is called the Virtual DOM.  Through this Virtual DOM, one can set up a site to receive data and make instantaneous updates to its code based off specific user interactions.  It is a quite useful in managing huge amounts of data flowing in on a large scale application.  In structuring the code, there is a heavy emphasis on components and building tree like structures of these components that branch out and allow data to be passed up and down in the form of props.  
+
+
 - [ ] What does it mean to _think_ in react?
+
+To think in React is to build your user interface in a component based structure.  Furthermore, each component should be designated one role to avoid confusion and make sure to allow necessary props be accessible in its called location in the component family tree .
 
 - [ ] Describe state.
 
+In React state is an object holding data inside a component.  The data housed in this object can be passed around components through a vehicle called props.
+
 - [ ] Describe props.
+
+Props is the vehicle through which data from the state can be passed around relative components.  As Lambda School taught me, state is the heart and props is the blood (data) being pushed and flowing around.  
 
 ## Project Set Up
 

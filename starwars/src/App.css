@@ -2,7 +2,41 @@
   text-align: center;
 }
 .Header {
-  color: #443e3e;
+  color: black;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 80px;
 }
 /* write your parent styles in here for your App.js */
+
+.react-wars-logo {
+  margin-top: 20px;
+}
+
+.character-list {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-style {
+  padding: 10px;
+}
+
+.character-card {
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 290px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.89);
+
+}
+
+.character-info {
+  color: rgb(209, 193, 52);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
