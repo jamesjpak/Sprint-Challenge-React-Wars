@@ -12,7 +12,8 @@
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .character-card {

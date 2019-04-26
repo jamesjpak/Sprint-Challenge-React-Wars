@@ -10,7 +10,7 @@ class App extends Component {
       starwarsChars: [],
       character: {
         name: '',
-        homeworld: '',
+        species: '',
         birth_year: '',
         gender: ''
       }
