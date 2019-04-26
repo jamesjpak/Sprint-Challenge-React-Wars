@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
-import Character from '../src/Character'
+import Character from "../src/Character";
 
 class App extends Component {
   constructor() {
@@ -9,16 +9,16 @@ class App extends Component {
     this.state = {
       starwarsChars: [],
       character: {
-        name: '',
-        eye_color: '',
-        birth_year: '',
-        gender: ''
+        name: "",
+        eye_color: "",
+        birth_year: "",
+        gender: ""
       }
     };
   }
 
   componentDidMount() {
-    this.getCharacters('https://swapi.co/api/people/');
+    this.getCharacters("https://swapi.co/api/people/");
   }
 
   getCharacters = URL => {
@@ -40,15 +40,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <img
+          src={require("./components/reactwarslogo.png")}
+          className="react-wars-logo"
+          alt="react-wars-logo"
+        />
 
-        <img className = "react-wars-logo" src={ require('./components/reactwarslogo.png') } alt="react-wars-logo" />
-
-        <div className = "character-list">
+        <div className="character-list" >
           {this.state.starwarsChars.map(character => (
-            <Character character={character} key={character.banana} />
+            <Character character={character} key={character.name} />
           ))}
         </div>
-
       </div>
     );
   }

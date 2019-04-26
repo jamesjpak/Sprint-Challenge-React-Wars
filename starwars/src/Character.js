@@ -5,8 +5,8 @@ function Character(props) {
     <div className="character-card">
       <div className="character-info">
         <h1>{props.character.name}</h1>
-       
-       <div className = "list-style">
+
+        <div className="list-style">
           <li>
             <strong>Born in:</strong> {props.character.birth_year}
           </li>
@@ -17,7 +17,6 @@ function Character(props) {
             <strong>Gender:</strong> {props.character.gender}
           </li>
         </div>
-       
       </div>
     </div>
   );
