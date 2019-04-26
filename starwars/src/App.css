@@ -20,6 +20,10 @@
   align-items: center;
 }
 
+.list-style {
+  padding: 10px;
+}
+
 .character-card {
   padding: 10px;
   margin: 20px;
@@ -29,9 +33,10 @@
   width: 290px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.89);
+
 }
 
 .character-info {
   color: rgb(209, 193, 52);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
