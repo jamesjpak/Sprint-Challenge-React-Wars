@@ -10,7 +10,7 @@ function Character(props) {
           <strong>Born in:</strong> {props.character.birth_year}
         </p>
         <p>
-          <strong>Species:</strong> {props.character.species}
+          <strong>Eye Color:</strong> {props.character.eye_color}
         </p>
         <p>
           <strong>Gender:</strong> {props.character.gender}

@@ -10,7 +10,7 @@ class App extends Component {
       starwarsChars: [],
       character: {
         name: '',
-        species: '',
+        eye_color: '',
         birth_year: '',
         gender: ''
       }
@@ -41,7 +41,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <img className = "react-wars-logo" src={ require('./components/reactwarslogo.png') } />
+        <img className = "react-wars-logo" src={ require('./components/reactwarslogo.png') } alt="react-wars-logo" />
 
         <div className = "character-list">
           {this.state.starwarsChars.map(character => (
