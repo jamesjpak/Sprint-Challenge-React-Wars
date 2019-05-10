@@ -7,15 +7,17 @@ function Character(props) {
         <h1>{props.character.name}</h1>
 
         <div className="list-style">
-          <li>
-            <strong>Born in:</strong> {props.character.birth_year}
-          </li>
-          <li>
-            <strong>Eye Color:</strong> {props.character.eye_color}
-          </li>
-          <li>
-            <strong>Gender:</strong> {props.character.gender}
-          </li>
+          <ul>
+            <li>
+              <strong>Born in:</strong> {props.character.birth_year}
+            </li>
+            <li>
+              <strong>Eye Color:</strong> {props.character.eye_color}
+            </li>
+            <li>
+              <strong>Gender:</strong> {props.character.gender}
+            </li>
+          </ul>
         </div>
       </div>
     </div>
